@@ -1,29 +1,29 @@
 package br.com.cod3r.builder.meal.builder;
 
-public class p1Builder extends FastFoodMealBuilder{
+public class Menu2Builder extends FastFoodMealBuilder{
 
     @Override
     public void buildDrink() {
-        meal.setDrink("Coke");
+        meal.setDrink("Water");
     }
 
     @Override
     public void buildMain() {
-        meal.setMain("Cheeseburguer");
+        meal.setMain("VeggieBurguer");
     }
 
     @Override
     public void buildSide() {
-        meal.setSide("Fries");
+        meal.setSide("Salad");
     }
 
     @Override
     public void buildDessert() {
-        meal.setDessert("Apple pie");
+        meal.setDessert("Apple");
     }
 
     @Override
     public void buildGift() {
-        meal.setToy("Avenger's Toy");
+        meal.setToy("I'm Veggie's Stamp");
     }
 }
